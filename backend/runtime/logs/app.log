@@ -1,0 +1,1108 @@
+2021-10-13 18:15:17 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "book/delete". in C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Module.php:543
+Stack trace:
+#0 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('book/delete', Array)
+#1 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\bblivro\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\bblivro\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2021-10-13 18:15:17 [::1][-][-][info][application] $_GET = [
+    'r' => 'book/delete'
+    'id' => '1'
+]
+
+$_POST = [
+    '_csrf-backend' => 'ldaSEKGVQQWjplOUzvsLIRZHW3whnXu5Yg_18bDoZY-su-JA69A1T-mRC-S4sHwVYBA8SFjuPYEMQpq_-KYL3Q=='
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '3t7uq3pohhucl7g4l3nsov5bpv'
+    '_csrf-backend' => '44a26ac9c47dc372f80e120dd16d97346e9c139935bc57a8a7bd6a415e82cc0ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"9mpPJEtJJ7XpvKw4vWg4ysF8nMoNHNnR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://bblivro-back.localhost/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'bblivro-back.localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '106'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"94\", \"Google Chrome\";v=\"94\", \";Not A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://bblivro-back.localhost'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://bblivro-back.localhost/index.php?r=book'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-CA;q=0.8,en;q=0.7,en-US;q=0.6'
+    'HTTP_COOKIE' => 'advanced-backend=3t7uq3pohhucl7g4l3nsov5bpv; _csrf-backend=44a26ac9c47dc372f80e120dd16d97346e9c139935bc57a8a7bd6a415e82cc0ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%229mpPJEtJJ7XpvKw4vWg4ysF8nMoNHNnR%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\Program Files\\nodejs\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9 Server at bblivro-back.localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9'
+    'SERVER_NAME' => 'bblivro-back.localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/bblivro/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/bblivro/backend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/bblivro/backend/web/index.php'
+    'REMOTE_PORT' => '56927'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=book%2Fdelete&id=1'
+    'REQUEST_URI' => '/index.php?r=book%2Fdelete&id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1634141717.5562
+    'REQUEST_TIME' => 1634141717
+]
+2021-10-13 18:15:22 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "book/delete". in C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Module.php:543
+Stack trace:
+#0 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('book/delete', Array)
+#1 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\bblivro\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\bblivro\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2021-10-13 18:15:22 [::1][-][-][info][application] $_GET = [
+    'r' => 'book/delete'
+    'id' => '1'
+]
+
+$_POST = [
+    '_csrf-backend' => 'ldaSEKGVQQWjplOUzvsLIRZHW3whnXu5Yg_18bDoZY-su-JA69A1T-mRC-S4sHwVYBA8SFjuPYEMQpq_-KYL3Q=='
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '3t7uq3pohhucl7g4l3nsov5bpv'
+    '_csrf-backend' => '44a26ac9c47dc372f80e120dd16d97346e9c139935bc57a8a7bd6a415e82cc0ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"9mpPJEtJJ7XpvKw4vWg4ysF8nMoNHNnR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://bblivro-back.localhost/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'bblivro-back.localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '106'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"94\", \"Google Chrome\";v=\"94\", \";Not A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://bblivro-back.localhost'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://bblivro-back.localhost/index.php?r=book'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-CA;q=0.8,en;q=0.7,en-US;q=0.6'
+    'HTTP_COOKIE' => 'advanced-backend=3t7uq3pohhucl7g4l3nsov5bpv; _csrf-backend=44a26ac9c47dc372f80e120dd16d97346e9c139935bc57a8a7bd6a415e82cc0ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%229mpPJEtJJ7XpvKw4vWg4ysF8nMoNHNnR%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\Program Files\\nodejs\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9 Server at bblivro-back.localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9'
+    'SERVER_NAME' => 'bblivro-back.localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/bblivro/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/bblivro/backend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/bblivro/backend/web/index.php'
+    'REMOTE_PORT' => '51602'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=book%2Fdelete&id=1'
+    'REQUEST_URI' => '/index.php?r=book%2Fdelete&id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1634141722.4222
+    'REQUEST_TIME' => 1634141722
+]
+2021-10-13 18:17:16 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "book". in C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Module.php:543
+Stack trace:
+#0 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('book', Array)
+#1 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\bblivro\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\bblivro\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2021-10-13 18:17:16 [::1][-][-][info][application] $_GET = [
+    'r' => 'book'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '3t7uq3pohhucl7g4l3nsov5bpv'
+    '_csrf-backend' => '44a26ac9c47dc372f80e120dd16d97346e9c139935bc57a8a7bd6a415e82cc0ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"9mpPJEtJJ7XpvKw4vWg4ysF8nMoNHNnR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://bblivro-back.localhost/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'bblivro-back.localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"94\", \"Google Chrome\";v=\"94\", \";Not A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_PURPOSE' => 'prefetch'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-CA;q=0.8,en;q=0.7,en-US;q=0.6'
+    'HTTP_COOKIE' => 'advanced-backend=3t7uq3pohhucl7g4l3nsov5bpv; _csrf-backend=44a26ac9c47dc372f80e120dd16d97346e9c139935bc57a8a7bd6a415e82cc0ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%229mpPJEtJJ7XpvKw4vWg4ysF8nMoNHNnR%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\Program Files\\nodejs\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9 Server at bblivro-back.localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9'
+    'SERVER_NAME' => 'bblivro-back.localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/bblivro/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/bblivro/backend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/bblivro/backend/web/index.php'
+    'REMOTE_PORT' => '52302'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=book'
+    'REQUEST_URI' => '/index.php?r=book'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1634141836.8712
+    'REQUEST_TIME' => 1634141836
+]
+2021-10-13 18:17:17 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "book". in C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Module.php:543
+Stack trace:
+#0 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('book', Array)
+#1 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\bblivro\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\bblivro\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2021-10-13 18:17:17 [::1][-][-][info][application] $_GET = [
+    'r' => 'book'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '3t7uq3pohhucl7g4l3nsov5bpv'
+    '_csrf-backend' => '44a26ac9c47dc372f80e120dd16d97346e9c139935bc57a8a7bd6a415e82cc0ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"9mpPJEtJJ7XpvKw4vWg4ysF8nMoNHNnR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://bblivro-back.localhost/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'bblivro-back.localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"94\", \"Google Chrome\";v=\"94\", \";Not A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-CA;q=0.8,en;q=0.7,en-US;q=0.6'
+    'HTTP_COOKIE' => 'advanced-backend=3t7uq3pohhucl7g4l3nsov5bpv; _csrf-backend=44a26ac9c47dc372f80e120dd16d97346e9c139935bc57a8a7bd6a415e82cc0ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%229mpPJEtJJ7XpvKw4vWg4ysF8nMoNHNnR%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\Program Files\\nodejs\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9 Server at bblivro-back.localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9'
+    'SERVER_NAME' => 'bblivro-back.localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/bblivro/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/bblivro/backend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/bblivro/backend/web/index.php'
+    'REMOTE_PORT' => '61061'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=book'
+    'REQUEST_URI' => '/index.php?r=book'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1634141837.0866
+    'REQUEST_TIME' => 1634141837
+]
+2021-10-13 18:17:34 [::1][-][3t7uq3pohhucl7g4l3nsov5bpv][error][Error] Error: Class "backend\models\BookSearch" not found in C:\xampp\htdocs\bblivro\backend\controllers\BookController.php:40
+Stack trace:
+#0 [internal function]: backend\controllers\BookController->actionIndex()
+#1 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('', Array)
+#4 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('book', Array)
+#5 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\xampp\htdocs\bblivro\backend\web\index.php(18): yii\base\Application->run()
+#7 {main}
+2021-10-13 18:17:34 [::1][-][3t7uq3pohhucl7g4l3nsov5bpv][info][application] $_GET = [
+    'r' => 'book'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '3t7uq3pohhucl7g4l3nsov5bpv'
+    '_csrf-backend' => '44a26ac9c47dc372f80e120dd16d97346e9c139935bc57a8a7bd6a415e82cc0ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"9mpPJEtJJ7XpvKw4vWg4ysF8nMoNHNnR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://bblivro-back.localhost/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'bblivro-back.localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"94\", \"Google Chrome\";v=\"94\", \";Not A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-CA;q=0.8,en;q=0.7,en-US;q=0.6'
+    'HTTP_COOKIE' => 'advanced-backend=3t7uq3pohhucl7g4l3nsov5bpv; _csrf-backend=44a26ac9c47dc372f80e120dd16d97346e9c139935bc57a8a7bd6a415e82cc0ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%229mpPJEtJJ7XpvKw4vWg4ysF8nMoNHNnR%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\Program Files\\nodejs\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9 Server at bblivro-back.localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9'
+    'SERVER_NAME' => 'bblivro-back.localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/bblivro/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/bblivro/backend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/bblivro/backend/web/index.php'
+    'REMOTE_PORT' => '60431'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=book'
+    'REQUEST_URI' => '/index.php?r=book'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1634141854.8462
+    'REQUEST_TIME' => 1634141854
+]
+2021-10-13 19:19:51 [::1][-][3t7uq3pohhucl7g4l3nsov5bpv][error][Error] Error: Class "backend\models\clientSearch" not found in C:\xampp\htdocs\bblivro\backend\controllers\ClientController.php:40
+Stack trace:
+#0 [internal function]: backend\controllers\ClientController->actionIndex()
+#1 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('', Array)
+#4 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('client', Array)
+#5 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\xampp\htdocs\bblivro\backend\web\index.php(18): yii\base\Application->run()
+#7 {main}
+2021-10-13 19:19:50 [::1][-][3t7uq3pohhucl7g4l3nsov5bpv][info][application] $_GET = [
+    'r' => 'client'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '3t7uq3pohhucl7g4l3nsov5bpv'
+    '_csrf-backend' => '44a26ac9c47dc372f80e120dd16d97346e9c139935bc57a8a7bd6a415e82cc0ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"9mpPJEtJJ7XpvKw4vWg4ysF8nMoNHNnR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://bblivro-back.localhost/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'bblivro-back.localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"94\", \"Google Chrome\";v=\"94\", \";Not A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-CA;q=0.8,en;q=0.7,en-US;q=0.6'
+    'HTTP_COOKIE' => 'advanced-backend=3t7uq3pohhucl7g4l3nsov5bpv; _csrf-backend=44a26ac9c47dc372f80e120dd16d97346e9c139935bc57a8a7bd6a415e82cc0ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%229mpPJEtJJ7XpvKw4vWg4ysF8nMoNHNnR%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\Program Files\\nodejs\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9 Server at bblivro-back.localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9'
+    'SERVER_NAME' => 'bblivro-back.localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/bblivro/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/bblivro/backend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/bblivro/backend/web/index.php'
+    'REMOTE_PORT' => '63969'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=client'
+    'REQUEST_URI' => '/index.php?r=client'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1634145590.9465
+    'REQUEST_TIME' => 1634145590
+]
+2021-10-13 20:10:59 [::1][-][3t7uq3pohhucl7g4l3nsov5bpv][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\xampp\htdocs\bblivro\backend\views\layouts\main.php in C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\View.php:233
+Stack trace:
+#0 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Controller.php(425): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(backend\controllers\ClientController))
+#1 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Controller.php(411): yii\base\Controller->renderContent('<div class="cli...')
+#2 C:\xampp\htdocs\bblivro\backend\controllers\ClientController.php(45): yii\base\Controller->render('index', Array)
+#3 [internal function]: backend\controllers\ClientController->actionIndex()
+#4 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('', Array)
+#7 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('client', Array)
+#8 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\bblivro\backend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2021-10-13 20:10:59 [::1][-][3t7uq3pohhucl7g4l3nsov5bpv][info][application] $_GET = [
+    'r' => 'client'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '3t7uq3pohhucl7g4l3nsov5bpv'
+    '_csrf-backend' => '44a26ac9c47dc372f80e120dd16d97346e9c139935bc57a8a7bd6a415e82cc0ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"9mpPJEtJJ7XpvKw4vWg4ysF8nMoNHNnR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://bblivro-back.localhost/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'bblivro-back.localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"94\", \"Google Chrome\";v=\"94\", \";Not A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_PURPOSE' => 'prefetch'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-CA;q=0.8,en;q=0.7,en-US;q=0.6'
+    'HTTP_COOKIE' => 'advanced-backend=3t7uq3pohhucl7g4l3nsov5bpv; _csrf-backend=44a26ac9c47dc372f80e120dd16d97346e9c139935bc57a8a7bd6a415e82cc0ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%229mpPJEtJJ7XpvKw4vWg4ysF8nMoNHNnR%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\Program Files\\nodejs\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9 Server at bblivro-back.localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9'
+    'SERVER_NAME' => 'bblivro-back.localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/bblivro/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/bblivro/backend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/bblivro/backend/web/index.php'
+    'REMOTE_PORT' => '57901'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=client'
+    'REQUEST_URI' => '/index.php?r=client'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1634148659.5344
+    'REQUEST_TIME' => 1634148659
+]
+2021-10-13 20:11:00 [::1][-][3t7uq3pohhucl7g4l3nsov5bpv][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\xampp\htdocs\bblivro\backend\views\layouts\main.php in C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\View.php:233
+Stack trace:
+#0 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Controller.php(425): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(backend\controllers\ClientController))
+#1 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Controller.php(411): yii\base\Controller->renderContent('<div class="cli...')
+#2 C:\xampp\htdocs\bblivro\backend\controllers\ClientController.php(45): yii\base\Controller->render('index', Array)
+#3 [internal function]: backend\controllers\ClientController->actionIndex()
+#4 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('', Array)
+#7 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('client', Array)
+#8 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\bblivro\backend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2021-10-13 20:11:00 [::1][-][3t7uq3pohhucl7g4l3nsov5bpv][info][application] $_GET = [
+    'r' => 'client'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '3t7uq3pohhucl7g4l3nsov5bpv'
+    '_csrf-backend' => '44a26ac9c47dc372f80e120dd16d97346e9c139935bc57a8a7bd6a415e82cc0ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"9mpPJEtJJ7XpvKw4vWg4ysF8nMoNHNnR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://bblivro-back.localhost/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'bblivro-back.localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"94\", \"Google Chrome\";v=\"94\", \";Not A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-CA;q=0.8,en;q=0.7,en-US;q=0.6'
+    'HTTP_COOKIE' => 'advanced-backend=3t7uq3pohhucl7g4l3nsov5bpv; _csrf-backend=44a26ac9c47dc372f80e120dd16d97346e9c139935bc57a8a7bd6a415e82cc0ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%229mpPJEtJJ7XpvKw4vWg4ysF8nMoNHNnR%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\Program Files\\nodejs\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9 Server at bblivro-back.localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9'
+    'SERVER_NAME' => 'bblivro-back.localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/bblivro/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/bblivro/backend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/bblivro/backend/web/index.php'
+    'REMOTE_PORT' => '58434'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=client'
+    'REQUEST_URI' => '/index.php?r=client'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1634148660.6175
+    'REQUEST_TIME' => 1634148660
+]
+2021-10-13 20:12:27 [::1][-][3t7uq3pohhucl7g4l3nsov5bpv][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined variable $id in C:\xampp\htdocs\bblivro\backend\controllers\ClientController.php:127
+Stack trace:
+#0 C:\xampp\htdocs\bblivro\backend\controllers\ClientController.php(127): yii\base\ErrorHandler->handleError(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 127)
+#1 C:\xampp\htdocs\bblivro\backend\controllers\ClientController.php(58): backend\controllers\ClientController->findModel('1')
+#2 [internal function]: backend\controllers\ClientController->actionView('1')
+#3 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('view', Array)
+#6 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('client/view', Array)
+#7 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\xampp\htdocs\bblivro\backend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2021-10-13 20:12:27 [::1][-][3t7uq3pohhucl7g4l3nsov5bpv][info][application] $_GET = [
+    'r' => 'client/view'
+    'client_id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '3t7uq3pohhucl7g4l3nsov5bpv'
+    '_csrf-backend' => '44a26ac9c47dc372f80e120dd16d97346e9c139935bc57a8a7bd6a415e82cc0ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"9mpPJEtJJ7XpvKw4vWg4ysF8nMoNHNnR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://bblivro-back.localhost/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'bblivro-back.localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"94\", \"Google Chrome\";v=\"94\", \";Not A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_REFERER' => 'http://bblivro-back.localhost/index.php?r=client%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-CA;q=0.8,en;q=0.7,en-US;q=0.6'
+    'HTTP_COOKIE' => 'advanced-backend=3t7uq3pohhucl7g4l3nsov5bpv; _csrf-backend=44a26ac9c47dc372f80e120dd16d97346e9c139935bc57a8a7bd6a415e82cc0ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%229mpPJEtJJ7XpvKw4vWg4ysF8nMoNHNnR%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\Program Files\\nodejs\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9 Server at bblivro-back.localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9'
+    'SERVER_NAME' => 'bblivro-back.localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/bblivro/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/bblivro/backend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/bblivro/backend/web/index.php'
+    'REMOTE_PORT' => '53206'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=client%2Fview&client_id=1'
+    'REQUEST_URI' => '/index.php?r=client%2Fview&client_id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1634148747.4735
+    'REQUEST_TIME' => 1634148747
+]
+2021-10-13 20:27:50 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/signup in C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Controller.php:152
+Stack trace:
+#0 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('signup', Array)
+#1 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('site/signup', Array)
+#2 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\bblivro\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\bblivro\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2021-10-13 20:27:50 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '3t7uq3pohhucl7g4l3nsov5bpv'
+    '_csrf-backend' => '44a26ac9c47dc372f80e120dd16d97346e9c139935bc57a8a7bd6a415e82cc0ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"9mpPJEtJJ7XpvKw4vWg4ysF8nMoNHNnR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://bblivro-back.localhost/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'bblivro-back.localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"94\", \"Google Chrome\";v=\"94\", \";Not A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://bblivro-back.localhost/index.php?r=client'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-CA;q=0.8,en;q=0.7,en-US;q=0.6'
+    'HTTP_COOKIE' => 'advanced-backend=3t7uq3pohhucl7g4l3nsov5bpv; _csrf-backend=44a26ac9c47dc372f80e120dd16d97346e9c139935bc57a8a7bd6a415e82cc0ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%229mpPJEtJJ7XpvKw4vWg4ysF8nMoNHNnR%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\Program Files\\nodejs\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9 Server at bblivro-back.localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9'
+    'SERVER_NAME' => 'bblivro-back.localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/bblivro/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/bblivro/backend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/bblivro/backend/web/index.php'
+    'REMOTE_PORT' => '50611'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'REQUEST_URI' => '/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1634149670.5104
+    'REQUEST_TIME' => 1634149670
+]
+2021-10-13 20:46:12 [::1][-][3t7uq3pohhucl7g4l3nsov5bpv][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined variable $id in C:\xampp\htdocs\bblivro\backend\controllers\BookController.php:127
+Stack trace:
+#0 C:\xampp\htdocs\bblivro\backend\controllers\BookController.php(127): yii\base\ErrorHandler->handleError(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 127)
+#1 C:\xampp\htdocs\bblivro\backend\controllers\BookController.php(58): backend\controllers\BookController->findModel('1')
+#2 [internal function]: backend\controllers\BookController->actionView('1')
+#3 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('view', Array)
+#6 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('book/view', Array)
+#7 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\xampp\htdocs\bblivro\backend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2021-10-13 20:46:12 [::1][-][3t7uq3pohhucl7g4l3nsov5bpv][info][application] $_GET = [
+    'r' => 'book/view'
+    'id_book' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '3t7uq3pohhucl7g4l3nsov5bpv'
+    '_csrf-backend' => '44a26ac9c47dc372f80e120dd16d97346e9c139935bc57a8a7bd6a415e82cc0ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"9mpPJEtJJ7XpvKw4vWg4ysF8nMoNHNnR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://bblivro-back.localhost/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'bblivro-back.localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"94\", \"Google Chrome\";v=\"94\", \";Not A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_REFERER' => 'http://bblivro-back.localhost/index.php?r=book%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-CA;q=0.8,en;q=0.7,en-US;q=0.6'
+    'HTTP_COOKIE' => 'advanced-backend=3t7uq3pohhucl7g4l3nsov5bpv; _csrf-backend=44a26ac9c47dc372f80e120dd16d97346e9c139935bc57a8a7bd6a415e82cc0ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%229mpPJEtJJ7XpvKw4vWg4ysF8nMoNHNnR%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\Program Files\\nodejs\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9 Server at bblivro-back.localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9'
+    'SERVER_NAME' => 'bblivro-back.localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/bblivro/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/bblivro/backend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/bblivro/backend/web/index.php'
+    'REMOTE_PORT' => '60941'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=book%2Fview&id_book=1'
+    'REQUEST_URI' => '/index.php?r=book%2Fview&id_book=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1634150772.5377
+    'REQUEST_TIME' => 1634150772
+]
+2021-10-13 20:47:48 [::1][-][3t7uq3pohhucl7g4l3nsov5bpv][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined variable $id in C:\xampp\htdocs\bblivro\backend\controllers\BookController.php:127
+Stack trace:
+#0 C:\xampp\htdocs\bblivro\backend\controllers\BookController.php(127): yii\base\ErrorHandler->handleError(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 127)
+#1 C:\xampp\htdocs\bblivro\backend\controllers\BookController.php(58): backend\controllers\BookController->findModel('1')
+#2 [internal function]: backend\controllers\BookController->actionView('1')
+#3 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('view', Array)
+#6 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('book/view', Array)
+#7 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\xampp\htdocs\bblivro\backend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2021-10-13 20:47:48 [::1][-][3t7uq3pohhucl7g4l3nsov5bpv][info][application] $_GET = [
+    'r' => 'book/view'
+    'id_book' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '3t7uq3pohhucl7g4l3nsov5bpv'
+    '_csrf-backend' => '44a26ac9c47dc372f80e120dd16d97346e9c139935bc57a8a7bd6a415e82cc0ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"9mpPJEtJJ7XpvKw4vWg4ysF8nMoNHNnR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://bblivro-back.localhost/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'bblivro-back.localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"94\", \"Google Chrome\";v=\"94\", \";Not A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://bblivro-back.localhost/index.php?r=book%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-CA;q=0.8,en;q=0.7,en-US;q=0.6'
+    'HTTP_COOKIE' => 'advanced-backend=3t7uq3pohhucl7g4l3nsov5bpv; _csrf-backend=44a26ac9c47dc372f80e120dd16d97346e9c139935bc57a8a7bd6a415e82cc0ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%229mpPJEtJJ7XpvKw4vWg4ysF8nMoNHNnR%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\Program Files\\nodejs\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9 Server at bblivro-back.localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9'
+    'SERVER_NAME' => 'bblivro-back.localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/bblivro/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/bblivro/backend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/bblivro/backend/web/index.php'
+    'REMOTE_PORT' => '65451'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=book%2Fview&id_book=1'
+    'REQUEST_URI' => '/index.php?r=book%2Fview&id_book=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1634150868.3183
+    'REQUEST_TIME' => 1634150868
+]
+2021-10-15 02:11:43 [::1][-][-][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Não foi possível verificar o seu envio de dados. in C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\web\Controller.php:218
+Stack trace:
+#0 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2-gii\src\controllers\DefaultController.php(38): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Controller.php(179): yii\gii\controllers\DefaultController->beforeAction(Object(yii\base\InlineAction))
+#2 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction('view', Array)
+#3 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('gii/default/vie...', Array)
+#4 C:\xampp\htdocs\bblivro\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 C:\xampp\htdocs\bblivro\backend\web\index.php(18): yii\base\Application->run()
+#6 {main}
+2021-10-15 02:11:43 [::1][-][-][info][application] $_GET = [
+    'r' => 'gii/default/view'
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_csrf-backend' => 'ZLRz4TF4cTLlCJrF9txP25lqXn0kXbE1HoCgqiRz70pd2QOxez0FeK8_wrWAlzjv7z05SV0u9w1wzc_kbD2BGA=='
+    'Generator' => [
+        'modelClass' => 'backend\\models\\Book'
+        'searchModelClass' => 'backend\\models\\BookSearch'
+        'controllerClass' => 'backend\\controllers\\BookController'
+        'viewPath' => ''
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '1'
+        'enablePjax' => '1'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'answers' => [
+        'd2adcdd48d34d81af0e49feedb5c8ce9' => '1'
+        '4a669806c6066d2ba20dece644c5aeeb' => '1'
+        'a5f86a008a0c9bb8a402a3ac5d14af38' => '1'
+        'b9e615c9315269ce50c13a753b9e7cbe' => '1'
+        'd5542d94af537670876c223392428fb9' => '1'
+        '4954b61c0c07c20f5114b2e64e8902fc' => '1'
+        '64ba51c4f44d7619ae9bcae85c0dbb88' => '1'
+        'b44828e650d24da140b4e01522841b39' => '1'
+    ]
+    'generate' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '7no40odav52h7b9pfmsu67l2ui'
+    '_csrf-backend' => '41cafad9e0e15a8cd7fe7c01ad9c491571a7f2119334a00b66822cdda6e316cda:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"cnz1cXtgz0Hj5pONlrqs0_6RHQWtBDz-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'bblivro-back.localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '980'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"94\", \"Google Chrome\";v=\"94\", \";Not A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://bblivro-back.localhost'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://bblivro-back.localhost/index.php?r=gii%2Fdefault%2Fview&id=crud'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-CA;q=0.8,en;q=0.7,en-US;q=0.6'
+    'HTTP_COOKIE' => 'advanced-backend=7no40odav52h7b9pfmsu67l2ui; _csrf-backend=41cafad9e0e15a8cd7fe7c01ad9c491571a7f2119334a00b66822cdda6e316cda%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22cnz1cXtgz0Hj5pONlrqs0_6RHQWtBDz-%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\Program Files\\nodejs\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9 Server at bblivro-back.localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9'
+    'SERVER_NAME' => 'bblivro-back.localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/bblivro/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/bblivro/backend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/bblivro/backend/web/index.php'
+    'REMOTE_PORT' => '65426'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=gii%2Fdefault%2Fview&id=crud'
+    'REQUEST_URI' => '/index.php?r=gii%2Fdefault%2Fview&id=crud'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1634256703.109
+    'REQUEST_TIME' => 1634256703
+]
